@@ -36,16 +36,18 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Introduction
+          who we are
         </p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>Our goals</h2>
       </motion.div>
 
       <motion.p
       variants={fadeIn('','',0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro maxime dicta suscipit eius omnis accusantium quas? Magni sit temporibus modi vitae vero, quibusdam quidem deleniti iste, eius maiores obcaecati deserunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste sed ea quas, cumque optio qui laudantium labore at, dignissimos et in? Minima sint sunt pariatur rem praesentium, recusandae accusamus?
+        We are a team of Human Resources professionals with more than 15 years of experience in various types of companies and HR processes. We consider ourselves strategic partners, actively supporting the hiring needs of the business with concrete actions.
+        
+        We aim to help you find the best talent to reach your maximum potential. We approach every challenge as an opportunity to make a difference, focusing on conducting high-quality hiring processes and providing continuous support to our partners at all times.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10"> 

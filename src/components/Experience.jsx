@@ -16,8 +16,8 @@ const ExperienceCard = ({ experience }) => (
   icon={
     <div className='flex justify-center items-center w-full h-full'>
       <p
-        className='w-[60%] h-[60%] object-contain items-center'
-        >1</p>
+        className='w-[60%] h-[60%] items-center text-center font-[--principal-font] text-xl font-bold'
+        >{experience.icon}</p>
     </div>
   }
   >
@@ -51,10 +51,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          What we've done so far
+          How we do it
         </p>
         <h2 className={styles.sectionHeadText}>
-          Our projects
+          Our process
         </h2>
       </motion.div>
 

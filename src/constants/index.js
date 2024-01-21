@@ -146,7 +146,7 @@ const experiences = [
     title: "Sourcing Symphony",
     company_name: "2-3 weeks",
     icon: 2,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     // date: "Jan 2021 - Feb 2022",
     points: [
     "Launch a strategic sourcing strategy to discover and engage with the best candidates.",
@@ -168,7 +168,7 @@ const experiences = [
     title: "Candidate Spotlight",
     company_name: "1-2 weeks",
     icon: 4,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     // date: "Jan 2023 - Present",
     points: [
     "Showcase top candidates to key stakeholders through comprehensive presentations.",
@@ -180,7 +180,7 @@ const experiences = [
     title: "Satisfaction Checkpoint",
     company_name: "2-3 weeks",
     icon: 5,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     // date: "Jan 2023 - Present",
     points: [
     "Measure satisfaction levels from both the candidate and the company's perspective.",

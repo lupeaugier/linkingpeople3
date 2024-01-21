@@ -63,10 +63,10 @@ const Works = () => {
     <>
         <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          My Projects
+          What we can help you with
         </p>
         <h2 className={styles.sectionHeadText}>
-          Projects
+          Our Searches
         </h2>
       </motion.div>
 
@@ -75,8 +75,14 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px} max-w-3xl leading-[30px'
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quidem hic, tenetur explicabo debitis iste ipsum perferendis reprehenderit officiis commodi velit dolorem animi, necessitatibus vitae magni maiores omnis dolorum fuga.
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quisquam, omnis a obcaecati quis cupiditate corrupti ipsa? Debitis recusandae doloremque autem laudantium sint adipisci nihil aliquam provident! Nesciunt, ullam eligendi!
+          30% of profiles entering companies end their employment relationship within the first 6 months. This causes a loss of time and resources, demotivation of teams, a distorted employer brand image, among other things.
+          This is what matters:
+          <ul className='list-disc list-inside'>
+              <li>Thoroughly assess the skills and challenges of the profile.</li>
+              <li>Conduct interviews with a focus on technical skills and cultural fit.</li>
+              <li>Understand the type of culture, leader's expectations, and team dynamics.</li>
+              <li>Support the fit-to-role process with feedback to the company.</li>
+          </ul>
         </motion.p>
       </div>
     
