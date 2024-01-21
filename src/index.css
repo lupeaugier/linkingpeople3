@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --principal-font: 'Lato', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  --first-color: #609cd2; 
+  --second-color: #3d79ab; 
+  --third-color: #215887; 
+  --fourth-color:#032854;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,11 +30,11 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: white; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #434343,
-    #000000
+    --var(--fourth-color)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
@@ -34,19 +44,19 @@
 }
 
 .violet-gradient {
-  background: #839aa8;
-  background: linear-gradient(-90deg, #839aa8 0%, rgba(60, 51, 80, 0) 100%);
+  background: #609cd2;
+  background: linear-gradient(-90deg, #609cd2 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #839aa8 0%,
+    #609cd2 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #215887 1.9%, white 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #215887 1.9%, white 97.5%);
 }
 
 .orange-text-gradient {

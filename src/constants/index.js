@@ -57,6 +57,22 @@ const services = [
     title: "Content Creator",
     icon: creator,
 },
+{
+    title: "Frontend Developer",
+    icon: creator,
+},
+{
+    title: "Fullstack Developer",
+    icon: creator,
+},
+{
+    title: "Data Sciencist",
+    icon: creator,
+},
+{
+    title: "CRM specialist",
+    icon: creator,
+}
 ];
 
 const technologies = [
@@ -116,55 +132,60 @@ const technologies = [
 
 const experiences = [
 {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Job Description Jigsaw",
+    company_name: "1-2 weeks",
+    icon: 1,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    // date: "March 2020 - April 2021",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Lay the foundation for success by meticulously defining job roles and identifying hiring needs.",
+    "Craft compelling job descriptions that attract top talent.",
     ],
-},
+}, 
 {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Sourcing Symphony",
+    company_name: "2-3 weeks",
+    icon: 2,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    // date: "Jan 2021 - Feb 2022",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Launch a strategic sourcing strategy to discover and engage with the best candidates.",
+    "Leverage job boards, social media, and networking to create a diverse pool of potential hiress.",
     ],
 },
 {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Tech Insight & Cultural Fit",
+    company_name: "3-4 weeks",
+    icon: 3,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    // date: "Jan 2022 - Jan 2023",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Conduct rigorous technical interviews to assess skills, coupled with a cultural fit evaluation to ensure alignment with company values.",
+    "This step ensures not just competence but also a strong connection to the company culture.",
     ],
 },
 {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Candidate Spotlight",
+    company_name: "1-2 weeks",
+    icon: 4,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    // date: "Jan 2023 - Present",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Showcase top candidates to key stakeholders through comprehensive presentations.",
+    "CHighlight technical prowess, cultural alignment, and the potential impact on the team.",
+    "Facilitate meaningful discussions to gather input.",
+    ],
+},
+{
+    title: "Satisfaction Checkpoint",
+    company_name: "2-3 weeks",
+    icon: 5,
+    iconBg: "#E6DEDD",
+    // date: "Jan 2023 - Present",
+    points: [
+    "Measure satisfaction levels from both the candidate and the company's perspective.",
+    "Seek feedback on the hiring process, addressing concerns, and highlighting successes.",
+    "Ensure a positive candidate experience and align expectations for a successful collaboration.",
     ],
 },
 ];
@@ -172,26 +193,24 @@ const experiences = [
 const testimonials = [
 {
     testimonial:
-    "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    " If there's one thing I have to highlight about Linking People, it's undoubtedly the quality of service and the understanding of our business, and consequently, the profile we are looking for.",
+    name: "Sara Castello",
+    designation: "People Manager",
+    company: "Bigbox",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
 },
 {
-    testimonial:
-    "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    testimonial: "We work with Linking People as a partner because the service is amazing, and the candidates themselves recognize it.",
+    name: "Malia Cara",
+    designation: "CPO",
+    company: "Tapi",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
 },
 {
-    testimonial:
-    "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    testimonial:"They are an excellent team of professionals. The ideal partner to successfully carry out any project in the field of Human Capital (Recruiting, Compensation, or Culture).",
+    name: "Juan Ignacio Galvan",
+    designation: "HR Manager",
+    company: "Allaria+",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
 },
 ];
